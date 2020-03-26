@@ -1,1 +1,23 @@
 /* pages/list/index.wxss */
+.list-container {
+  margin: 20rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.img {
+  width: 306rpx;
+  height: 306rpx;
+}
+
+.tip {
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+  background: #000000;
+  color: #ffffff;
+  width: 100rpx;
+  height: 50rpx;
+  font-size: 24rpx;
+  line-height: 50rpx;
+}

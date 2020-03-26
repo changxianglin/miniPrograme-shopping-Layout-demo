@@ -5,7 +5,58 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    list: [
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+      {
+        url: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1585247517804&di=e3b225ffc7f77f318fb559ada5f00ab2&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20171129%2Fd26754ffd2d04c15b802c7a8ccbe806d.jpeg',
+        name: 'mznv',
+        price: '12.88',
+      },
+    ]
   },
 
   /**
