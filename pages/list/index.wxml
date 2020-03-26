@@ -1,6 +1,6 @@
 <!--pages/list/index.wxml-->
 <view>
-<view class="list-container" wx:for="{{list}}" wx:key="index">
+<view class="list-container" bindtap="handleDetail" wx:for="{{list}}" wx:key="index">
   <view class="img-wrapper">
     <image class="img" src="{{item.url}}"></image>
     <text class="tip">美女</text>

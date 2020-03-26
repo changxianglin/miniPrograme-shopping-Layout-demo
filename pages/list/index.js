@@ -59,6 +59,12 @@ Page({
     ]
   },
 
+  handleDetail: function() {
+    wx.navigateTo({
+      url: '/pages/detail/index',
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */
