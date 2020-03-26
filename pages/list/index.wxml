@@ -1,9 +1,17 @@
 <!--pages/list/index.wxml-->
 <view>
 <view class="list-container" wx:for="{{list}}" wx:key="index">
-  <image class="img" src="{{item.url}}"></image>
-  <view class="tip">美女</view>
-  <view class="name">{{item.name}}</view>
-  <view class="price">{{item.price}}</view>
+  <view class="img-wrapper">
+    <image class="img" src="{{item.url}}"></image>
+    <text class="tip">美女</text>
+  </view>
+  <view class="content-wrapper">
+    <view class="name">{{item.name}}</view>
+    <view class="desc">一个俄罗斯美女...</view>
+    <view class="price">
+      <view class="title">${{item.price}}</view>
+        <image class="add-icon" src="https://img3.doubanio.com/icon/u122310507-3.jpg"></image>
+      </view>
+  </view>
 </view>
 </view>
