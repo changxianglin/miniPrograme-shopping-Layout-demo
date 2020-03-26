@@ -1,0 +1,26 @@
+<!--pages/detail/index.wxml-->
+<view>
+<swiper autoplay="true">
+  <block wx:for="{{swiper}}" wx:key="index">
+    <swiper-item >
+      <image class="swiper-img" src="{{item.url}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="card">
+    <view class="card-content">
+        <view class="header">Header</view>
+        <view class="content">Content</view>
+        <view class="footer">Footer</view>
+    </view>
+</view>
+<scroll-view class="list" class="list-container">
+  <view wx:for="{{list}}" class="item-name">
+    {{item.name}}
+  </view>
+  <view class="add-more">more</view>
+</scroll-view>
+<view class="add">
+buy some 
+</view>
+</view>
